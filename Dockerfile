@@ -1,4 +1,4 @@
-FROM busybox:glibc
+FROM debian:stable
 USER root
 
 COPY wisp /wisp
