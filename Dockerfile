@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/static:latest
+FROM busybox
 USER root
 
 COPY wisp /wisp
