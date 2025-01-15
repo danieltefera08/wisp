@@ -1,4 +1,4 @@
-FROM busybox
+FROM busybox:glibc
 USER root
 
 COPY wisp /wisp
